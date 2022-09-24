@@ -1,20 +1,34 @@
+fetch('https://www.googleapis.com/books/v1/volumes?q=HTML5')
 
-
- fetch("https://www.googleapis.com/books/v1/volumes?q=HTML5")
-
-.then((data) => {
-    console.log(data);
+  .then((data) => {
+    // console.log(data);
 
     return data.json();
+  })
+  .then((collectData) => {
+    console.log(collectData.items);
 
-}).then((collectData) => {
+    //    document.getElementById('featured').
+    //    innerHTML = collectData.items[2].kind;
 
-   console.log(collectData.items[2].kind);
-   document.getElementById('featured').
-   innerHTML = collectData.items[2].kind;
-   
+    let populate_books = '';
 
-})
+    let data2 = collectData.items.slice(0,8);
 
+    data2.map((values) => {
+      populate_books += `   <div class="card" >
+    
+                        <img class="bookstore-logo" src="${values.volumeInfo.imageLinks.thumbnail }" alt="Bookstore-logo" />
+                        <div>
+                            <h4> ${values.volumeInfo.title}</h4>
+                            <h6> ${values.volumeInfo.authors[0]}</h6>
+                            <h6> Pages :${values.volumeInfo.pageCount}</h6>
+                            <p>${values.volumeInfo.description.substr(0,140 )}</p>
+                            
+                        </div>
 
+            </div>    `;
+    });
 
+    document.getElementById('books').innerHTML = populate_books;
+  });

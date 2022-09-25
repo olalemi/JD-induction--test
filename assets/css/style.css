@@ -104,10 +104,9 @@ body {
 
 #featured {
   display: flex;
-  border: 2px solid black;
   flex-direction: column;
-  max-width: 300px;
-  gap: 10px;
+  max-width: 100%;
+  gap: 20px;
   padding: 10px;
   margin-bottom: 15px;
 }
@@ -127,9 +126,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 2px solid black;
   text-align: center;
-  padding: 10px;
-  max-width: 200px;
+  padding: 20px;
+  max-width: 100%;
   height: auto;
   gap: 10px;
 }
@@ -163,15 +163,43 @@ body {
 /* Mobile  Only */
 
 @media  screen and (max-width: 800px) {
-
+ 
   #flex-card {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
-    }
+    } 
 	
 	.nav-bar{
     display:none;
   }
+
+   #books {
+    flex-direction: column-reverse;
+    align-items: center;
+      
+ } 
+
+ .featured-items {
+   max-width: 90%;
+ 
+}
+
+.card {
+  
+  max-width:90%;
+  max-height:auto;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  
+}
+
+
+#flex-card {
+ margin-left: 2rem;
+  
+ 
+}
 	
 
   

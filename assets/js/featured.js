@@ -24,7 +24,7 @@ fetch('https://www.googleapis.com/books/v1/volumes?q=HTML5')
 
                         <h4>${values.volumeInfo.title} </h4>
                         <h5>${values.volumeInfo.authors[0]} </h5>
-                        <h6> Pages :${values.volumeInfo.pageCount}</h6>
+                        <h6> Pages: ${values.volumeInfo.pageCount}</h6>
                         <p>${values.volumeInfo.description.substr(0,140 )}</p>
                         <img class="bookstore-logo" src="${values.volumeInfo.imageLinks.thumbnail }" alt="Bookstore-logo" />
 

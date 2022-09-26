@@ -31,8 +31,24 @@ fetch('https://www.googleapis.com/books/v1/volumes?q=HTML5')
     });
 
     document.getElementById('flex-card').innerHTML = populate_books;
+
   });
 
 
-  
- 
+  const selectCard =document.getElementsByClassName("card")
+
+  Array.prototype.forEach.call(selectCard, function(tips) {
+    tips.addEventListener('click', () => {
+    // Do stuff here
+    console.log("yes");
+
+
+  });
+
+  });
+
+
+
+
+
+

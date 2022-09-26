@@ -51,9 +51,6 @@ body {
   font-size: 20px;
 }
 
-  li:first-child {
-  background-color: #95bcf2;
-}
 
 .text {
   text-align: center;
@@ -108,7 +105,6 @@ body {
 #featured {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
   max-width: 100%;
   gap: 20px;
   margin-bottom: 15px;
@@ -128,6 +124,7 @@ body {
 
 .featured-card-items {
   display: flex;
+  background-color: #ffffff;
   flex-direction: column;
   justify-content: center;
   border: 2px solid black;
@@ -178,7 +175,7 @@ body {
   }
 
   .card {
-    max-width: 95%;
+    max-width: 90%;
     max-height: auto;
     gap: 10px;
     padding: 10px;
@@ -186,7 +183,7 @@ body {
   }
 
   #flex-card {
-    margin-left: 2rem;
+    margin-left: 2rem; 
   }
 
   .social-icons{

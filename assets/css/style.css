@@ -51,7 +51,6 @@ body {
   font-size: 20px;
 }
 
-
 .text {
   text-align: center;
   max-width: 850px;
@@ -82,7 +81,7 @@ body {
   display: flex;
   border: 2px solid black;
   flex-direction: row;
-  max-width: 300px;
+  max-width: 330px;
   max-height: 350px;
   gap: 10px;
   padding: 10px;
@@ -90,14 +89,19 @@ body {
 }
 
 .card-items h6,
-.card-items p {
+.card-items p, .card-items h5{
   font-weight: lighter;
 }
 
-.card-items h4,
+
 .card-items p {
   font-size: 10px;
 }
+
+.card-items h4{
+  font-size:12px;
+}
+
 .card-items * {
   padding-bottom: 5px;
 }
@@ -135,7 +139,7 @@ body {
   gap: 10px;
 }
 
-.social-icons-mobile{
+.social-icons-mobile {
   display: none;
 }
 
@@ -183,16 +187,15 @@ body {
   }
 
   #flex-card {
-    margin-left: 2rem; 
+    margin-left: 2rem;
   }
 
-  .social-icons{
+  .social-icons {
     display: none;
   }
 
-  .social-icons-mobile{
+  .social-icons-mobile {
     display: flex;
     padding: 15px;
   }
-
 }

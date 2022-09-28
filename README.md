@@ -13,10 +13,10 @@
 • The book description is a maximum of 140 characters</br>
 • No use of any CSS frameworks </br>
 • Cross-browser compatible </br>
-  &nbsp;  - Tested on Mozilla firefox</br>
-    - Tested on Safari</br>
-    - Tested on Chrome</br>
-    - Tested on Microsoft Edge </br>  
+  &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Mozilla firefox</br>
+  &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Safari</br>
+  &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Chrome</br>
+  &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Microsoft Edge </br>  
 •  CSS was used to display the mobile burger menu</br>
 •  The task was pushed  to a public repository and commit history was documented.</br>
 

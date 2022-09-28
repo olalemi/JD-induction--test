@@ -16,7 +16,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Mozilla firefox</br>
   &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Safari</br>
   &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Chrome</br>
-  &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Microsoft Edge </br>  
+  &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Microsoft Edge  
 •  CSS was used to display the mobile burger menu</br>
 •  The task was pushed  to a public repository and commit history was documented.</br>
 

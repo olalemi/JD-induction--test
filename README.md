@@ -5,10 +5,8 @@
   
  ## Requirements met
   
-• Each book in the list should display the book cover, title, subtitle, all
-authors, number of pages and description.
-• You should be able to select on a book anywhere on the page by
-clicking on them, it should be clear the user has made a selection, add
+• Each book in the list should display the book cover, title, subtitle, all authors, number of pages and description.</br>
+• You should be able to select on a book anywhere on the page by clicking on them, it should be clear the user has made a selection, add</br>
 a class of is-selected .
 • You should be able to click on a selected book a second time to
 remove the class.
@@ -19,7 +17,7 @@ remove the class.
   
 ##  Built with
  
-• HTML
-• CSS
+• HTML</br>
+• CSS</br>
 • Vanilla Javascript
  

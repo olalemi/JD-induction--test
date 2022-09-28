@@ -18,7 +18,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Chrome</br>
   &nbsp;&nbsp;&nbsp;&nbsp; - Tested on Microsoft Edge  
 •  CSS was used to display the mobile burger menu</br>
-•  The task was pushed  to a public repository and commit history was documented.</br>
+•  The task was pushed  to my github repo and commit history was documented.</br>
 
   
 ##  Built with

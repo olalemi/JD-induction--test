@@ -3,7 +3,7 @@
   A webpage that populates HTML 5 books using Google Books API 
   
   
- #Requirements met
+ ### Requirements met
   
 • Each book in the list should display the book cover, title, subtitle, all authors, number of pages and description.</br>
 • You should be able to select on a book anywhere on the page by clicking on them, it should be clear the user has made a selection, add a class of is-selected.</br>

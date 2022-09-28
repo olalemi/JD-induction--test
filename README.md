@@ -13,7 +13,7 @@
 • The book description is a maximum of 140 characters</br>
 • No use of any CSS frameworks </br>
 • Cross-browser compatible </br>
-    - Tested on Mozilla firefox</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;  - Tested on Mozilla firefox</br>
     - Tested on Safari</br>
     - Tested on Chrome</br>
     - Tested on Microsoft Edge </br>  

@@ -40,5 +40,41 @@ fetch('https://www.googleapis.com/books/v1/volumes?q=HTML5')
     };
 
 
-  })
+
+    
+    let selectedItems = JSON.parse(localStorage.getItem("featuredSelectedItem")) || [];
+
+    //   console.log(selectedItems)
+    
+      setTimeout(() => {
+        
+        selectedItems.forEach((selectedItem) => {
+            document.getElementById(`${selectedItem}`).classList.add("is-selected");
+        });
+    }, 500);
+    
+            let fbookss = document.getElementsByClassName("featured");
+                for (let i = 0; i < fbookss.length; i++) {
+                    fbookss[i].addEventListener("click", () => {
+                        const classes = fbookss[i].classList;
+                        if (classes.contains("is-selected")) {
+                            /* If fbookss is selected through the class, then remove the is-selected class and also remove from localstorage */
+                            fbookss[i].classList.remove("is-selected");
+                            // remove the selected item from the array
+                            selectedItems = selectedItems.filter((item) => item !== fbookss[i].id);
+                        } else {
+                            /* This Stores the selected book's ID into localstorage via is-selected class */
+                            fbookss[i].classList.add("is-selected");
+                            // add the selected item to the array
+                            selectedItems.push(fbookss[i].id);
+                        }
+                        // store the updated selectedItems array in localStorage as json
+                        localStorage.setItem("featuredSelectedItem", JSON.stringify(selectedItems));
+                    });
+                }
+          
+              
+              
+
+  });
 

@@ -20,6 +20,17 @@
 •  CSS was used to display the mobile burger menu</br>
 •  The task was pushed  to my github repo and commit history was documented.</br>
 
+ ## Issue Faced amd how it was resolved
+  
+• I had included the card Div directly into te template string. it was not giving the required output onclick</br>
+ &nbsp;&nbsp;&nbsp;&nbsp; - it was resolved by creatng the div and assingning it a  class dynamically </br>
+ 
+
+• On reload of the page, the local storage keeps the previous stage but the states were not reflective on the cards</br>
+ &nbsp;&nbsp;&nbsp;&nbsp; - The function I initially wrote for when the site reloads was in a block for the condtions to be executed after clicking , giving
+  the if statemet a seperate block resolved the problems</br>
+
+
   
 ##  Built with
  
